@@ -1,0 +1,371 @@
+body
+{
+  margin: 0px;
+  padding: 0px;  
+}
+#main
+{
+  width: 960px;
+  min-height: 650px;
+  background-color: yellow;  
+  margin-right: auto;
+  margin-left: auto;
+
+  
+}
+#header
+{
+  height: 190px;
+  background-color: gray;  
+}
+#content
+{
+  min-height: 450px;
+  background-color: rgb(207, 201, 188);
+  margin-top: 5px;
+}
+#footer
+{
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  line-height: 50px;
+  clear: both;
+}
+#leftLogo
+{
+  height: 150px;
+  width: 150px;
+  background-color:rgba(2, 2, 77, 0.576);
+  float: left; 
+}
+#title
+{
+ height: 150px;
+ width: 660px;
+ background-color: rgba(2, 2, 77, 0.576); 
+ float: left;  
+}
+#rightLogo
+{
+  height: 150px;
+  width: 150px;
+  background-color: gold;  
+  float: left;;
+}
+#leftLogo img,#rightLogo img
+{
+  width: 100%;
+  height: 100%; 
+}
+#title h1
+{
+  margin: 0px;
+  font-size: 50px;
+  color: yellow;
+  margin-top: 10px;
+  text-align: center;
+}
+#title h3
+{
+  text-align: center;
+  margin: 0px;
+  color: white;
+}
+#register
+{
+  text-align: right;
+}
+#register a
+{
+  text-decoration: none;
+  color: blue;
+  font-size: 20px;
+}
+/* form setting */
+#myForm
+{
+  width: 600px;
+  min-height: 250px;
+  background-color: rgba(201, 139, 25, 0.704);
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+
+}
+#myForm label
+{
+  color: black;
+  font-size: 24px;
+} 
+#myForm input[type="text"],#myForm input[type="password"],#myForm select,#myForm input[type="file"],#myForm input[type="date"],#myForm textarea
+{
+  width: 100%;
+  font-size: 20px;
+  padding: 4px;
+  margin: 5px 0px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+#myForm input[type="submit"],#myForm input[type="reset"],#myForm input[type="button"]
+{
+  width: 100px;
+  height: 40px;
+  margin: 10px 20px;
+  background-color: yellow;
+  border: 3px solid red;
+  border-radius: 10px 0px;
+  font-size: 20px;
+}
+#myForm input[type="submit"]:hover,#myForm input[type="reset"]:hover,#myForm input[type="button"]:hover
+{
+  width: 100px;
+  height: 40px;
+  margin: 10px 20px;
+  background-color: black;
+  border: 3px solid rgb(118, 236, 236);
+  border-radius: 10px 0px;
+  font-size: 20px;
+  color: gold;
+}
+#responseMsg
+{
+  background-color: white;
+  color: red;
+  font-size: 24px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+#leftSide
+{
+  min-height: 450px;
+  background-color: gray;
+  width: 150px;
+  display: table-cell;
+  
+  
+}
+#leftSideadmin{
+  height: 450px;
+  background-color: gray;
+  width: 150px;
+  display: table-cell;
+}
+#leftSideuser{
+  height: 450px;
+  background-color: gray;
+  width: 150px;
+  display: table-cell;
+}
+#rightSide
+{
+  min-height: 450px;
+  background-color: wheat;
+  width: 810px;
+  display: table-cell;
+}
+#adminMenu ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+#adminMenu ul li
+{
+  line-height: 30px;
+  background-color: #333;
+  color: yellow;
+  text-align: center;
+}
+#adminMenu ul li a
+{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+}
+#adminMenu ul li a:hover
+{
+  background-color: white;
+  color: black;
+}
+#categoryArea
+{
+  padding: 15px;
+}
+.category
+{
+  width: 220px;
+  height: 180px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+#itemArea
+{
+  padding: 15px;
+}
+.item
+{
+  width: 220px;
+  height: 330px;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.buyButton
+{
+  width: 100px;
+  height: 40px;
+  background-color: yellow;
+  margin: 10px auto;
+  line-height: 40px;
+  border-radius: 10px;
+}
+.buyButton a
+{
+  text-decoration: none;
+  line-height: 40px;
+  display: block;
+  color: black;
+}
+.buyButton a:hover
+{
+  background-color: black;
+  color: yellow;
+  border-radius: 10px;
+}
+#WelcomeUser
+{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 18px;
+}
+#WelcomeUser a
+{
+  color: red;
+  text-decoration: none;
+  background-color: yellow;
+}
+#placeorder{
+width: 150px;
+height: 50px;
+text-align: center;
+background-color: yellow;
+border: 3px solid red;
+margin: 20px auto;
+border-radius: 20px 0px;
+}
+#placeorder a{
+  line-height: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#placeorder a:hover{
+  background-color: black;
+  color: yellow;
+  border: 3px solid white;
+  border-radius: 20px 0px;
+  }
+#repbtn{
+  width: 100px;  
+  height: 40px;
+  background-color: black;
+  font-size: 24px;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 3px solid whitesmoke;
+}
+#repbtn a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+#repbtn:hover{
+  background-color: black;
+  border-radius: 10px;
+  border: 3px solid paleturquoise;
+}
+#repbtn a:hover{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+#mylist{
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  width: 700px;
+  height: 420px;
+  overflow: scroll;
+}
+#searchBar{
+  clear: both;
+  height: 40px;
+  padding: 10px;
+  background-color: white;
+ 
+  font-size: 24px;
+  
+  
+
+}
+.searchbar{
+  width: 450px;
+  height: 100%;
+  padding: 10px;
+ margin-top: -20px;
+ margin-left: 300px;
+
+}
+.searchbar input[type='text']{
+  width: 50%;
+  height: 80%;
+  font-size: 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.searchbar input[type='text']:focus-visible{
+  width: 50%;
+  height: 80%;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+.searchbar input[type='submit']{
+  width: 18%;
+  height: 80%;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.searchbar input[type='submit']:hover{
+  width: 18%;
+  height: 80%;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 3px solid rgb(118, 236, 236);
+  background-color: black;
+  color: gold;
+}
